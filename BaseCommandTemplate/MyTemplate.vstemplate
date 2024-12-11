@@ -1,0 +1,16 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>BaseCommandTemplate.cs</DefaultName>
+    <Name>BaseCommandTemplate</Name>
+    <Description>Create a command files</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Command.cs" ReplaceParameters="true">BaseCommandTemplate.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Handler.cs" ReplaceParameters="true">BaseCommandTemplateHandler.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Response.cs" ReplaceParameters="true">BaseCommandTemplateResponse.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

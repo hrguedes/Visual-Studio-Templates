@@ -1,0 +1,14 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>RepositoryTemplate.cs</DefaultName>
+    <Name>RepositoryTemplate</Name>
+    <Description>Create a repository domain</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$Repository.cs" ReplaceParameters="true">RepositoryTemplate.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
